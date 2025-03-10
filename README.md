@@ -16,16 +16,17 @@ It's still a work in progress—but I wanted to share my approach, challenges, a
 ---
 
 ### 🔧 **Setup Instructions**
-#### **1️⃣ Clone the Repository**
 ```bash
+1️⃣ Clone the Repository
 git clone https://github.com/yourusername/job-application-tracker.git
 cd job-application-tracker
 
-#### **2️⃣ Set Up a Virtual Environment (Optional, but Recommended)**
+2️⃣ Set Up a Virtual Environment (Optional, but Recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-#### **3️⃣ Set Up Google API Credentials**
+3️⃣ Set Up Google API Credentials
 Go to the Google Cloud Console
 Enable the Gmail API and create OAuth 2.0 credentials
 Download credentials.json and place it in the project folder
+```
